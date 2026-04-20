@@ -1,0 +1,39 @@
+data:
+  vocab_path: data/processed/vocab.json
+  train_path: data/processed/train.pkl
+  val_path: data/processed/val.pkl
+  test_path: data/processed/test.pkl
+  max_len: 1024
+
+model:
+  d_model: 512
+  n_layers: 8
+  n_heads: 8
+  d_ff: 2048
+  dropout: 0.1
+  rope_base: 10000.0
+
+loss:
+  delta: 0.5
+  # Tokens with these prefixes stay in the input sequence (for attention context)
+  # but are masked out of the BCE targets and weights so the model is not asked
+  # to predict them. Empty list = predict everything (default POC behavior).
+  exclude_prefixes:
+    - "LAB:"
+
+optim:
+  lr: 3.0e-4
+  weight_decay: 0.1
+  betas: [0.9, 0.95]
+  warmup_steps: 500
+  grad_clip: 1.0
+
+training:
+  batch_size: 32
+  num_epochs: 3
+  num_workers: 2
+  amp_dtype: bf16       # bf16 on A100, falls back to fp32 on CPU/MPS
+  log_every: 50
+  val_every_epoch: true
+  checkpoint_dir: checkpoints
+  seed: 20260410

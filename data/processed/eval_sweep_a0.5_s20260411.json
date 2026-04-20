@@ -1,0 +1,70 @@
+{
+  "ensemble": {
+    "overall": {
+      "auprc": 0.2810498922522288,
+      "best_f1": 0.3351375073142188,
+      "n_pos": 180697,
+      "n_total": 38881080
+    },
+    "new_onset": {
+      "auprc": 0.12853888406768843,
+      "best_f1": 0.1982859149373366,
+      "n_pos": 98816,
+      "n_total": 38581200
+    },
+    "per_condition_auroc": {
+      "aki": {
+        "auroc": 0.7556087082921772,
+        "n_positive": 1080
+      },
+      "sepsis": {
+        "auroc": 0.7294626181860628,
+        "n_positive": 676
+      },
+      "acute_resp_failure": {
+        "auroc": 0.8274164145594636,
+        "n_positive": 645
+      },
+      "heart_failure": {
+        "auroc": 0.8234599588630004,
+        "n_positive": 631
+      },
+      "acute_mi": {
+        "auroc": 0.7674434388060841,
+        "n_positive": 305
+      }
+    }
+  },
+  "per_site": [
+    {
+      "site": 0,
+      "n_patients": 11110,
+      "overall_auprc": 0.23579222156596646,
+      "new_onset_auprc": 0.11072345034844874
+    },
+    {
+      "site": 1,
+      "n_patients": 17670,
+      "overall_auprc": 0.2718996424188627,
+      "new_onset_auprc": 0.12219983010594983
+    },
+    {
+      "site": 2,
+      "n_patients": 9999,
+      "overall_auprc": 0.21857107231127376,
+      "new_onset_auprc": 0.09404613294868475
+    },
+    {
+      "site": 3,
+      "n_patients": 14506,
+      "overall_auprc": 0.23742457290471528,
+      "new_onset_auprc": 0.10800239464080884
+    },
+    {
+      "site": 4,
+      "n_patients": 16812,
+      "overall_auprc": 0.28036628812252234,
+      "new_onset_auprc": 0.12778253926946273
+    }
+  ]
+}

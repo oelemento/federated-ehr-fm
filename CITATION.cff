@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or build on this work, please cite the accompanying paper."
+title: "Multi-Hospital Electronic Health Record Foundation Models Without Data Sharing: A Comparison of Federated Learning and Inference-Time Ensembling"
+authors:
+  - family-names: Elemento
+    given-names: Olivier
+    affiliation: "Department of Systems and Computational Biomedicine, Englander Institute for Precision Medicine, Weill Cornell Medicine"
+    orcid: "https://orcid.org/0000-0002-5121-1683"
+year: 2026
+repository-code: "https://github.com/oelemento/federated-ehr-fm"
+license: MIT
+keywords:
+  - electronic health records
+  - foundation models
+  - federated learning
+  - ensembling
+  - clinical prediction
+  - MIMIC-IV

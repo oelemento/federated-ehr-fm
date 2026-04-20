@@ -1,0 +1,30 @@
+# Raw MIMIC-IV data (credentialed access, NEVER redistribute)
+data/MIMIC-IV/
+
+# Processed/derived data from MIMIC-IV (patient-level; do not commit)
+data/processed/*.pkl
+data/processed/vocab.json
+data/splits/*.csv
+
+# Model artifacts
+checkpoints/
+checkpoints_*/
+logs/
+
+# Build outputs
+manuscript/build/*.docx
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+
+# Node (only for manuscript/build)
+node_modules/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

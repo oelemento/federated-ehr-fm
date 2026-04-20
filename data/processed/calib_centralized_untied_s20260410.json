@@ -1,0 +1,418 @@
+{
+  "checkpoints": [
+    "checkpoints_untied_centralized_s20260410/best.pt"
+  ],
+  "label": "centralized_untied_s20260410",
+  "results": [
+    {
+      "name": "aki",
+      "n": 11654,
+      "n_positive": 1080,
+      "prevalence": 0.09267204393341343,
+      "brier": 0.07634405791759491,
+      "ece": 0.008994579807298507,
+      "mean_predicted": 0.10164034366607666,
+      "mean_observed": 0.09267204393341343,
+      "reliability_bins": [
+        {
+          "bin_low": 0.0,
+          "bin_high": 0.1,
+          "n": 7313,
+          "mean_predicted": 0.03865208849310875,
+          "observed_rate": 0.03582661014631478
+        },
+        {
+          "bin_low": 0.1,
+          "bin_high": 0.2,
+          "n": 2513,
+          "mean_predicted": 0.1428389549255371,
+          "observed_rate": 0.13529645841623558
+        },
+        {
+          "bin_low": 0.2,
+          "bin_high": 0.30000000000000004,
+          "n": 1108,
+          "mean_predicted": 0.24267110228538513,
+          "observed_rate": 0.2283393501805054
+        },
+        {
+          "bin_low": 0.30000000000000004,
+          "bin_high": 0.4,
+          "n": 493,
+          "mean_predicted": 0.3425445854663849,
+          "observed_rate": 0.2778904665314402
+        },
+        {
+          "bin_low": 0.4,
+          "bin_high": 0.5,
+          "n": 178,
+          "mean_predicted": 0.4405989348888397,
+          "observed_rate": 0.3651685393258427
+        },
+        {
+          "bin_low": 0.5,
+          "bin_high": 0.6000000000000001,
+          "n": 46,
+          "mean_predicted": 0.5406965017318726,
+          "observed_rate": 0.45652173913043476
+        },
+        {
+          "bin_low": 0.6000000000000001,
+          "bin_high": 0.7000000000000001,
+          "n": 3,
+          "mean_predicted": 0.615631639957428,
+          "observed_rate": 0.6666666666666666
+        },
+        {
+          "bin_low": 0.7000000000000001,
+          "bin_high": 0.8,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        },
+        {
+          "bin_low": 0.8,
+          "bin_high": 0.9,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        },
+        {
+          "bin_low": 0.9,
+          "bin_high": 1.0,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        }
+      ]
+    },
+    {
+      "name": "sepsis",
+      "n": 13856,
+      "n_positive": 676,
+      "prevalence": 0.048787528868360276,
+      "brier": 0.04480395466089249,
+      "ece": 0.010573424076270013,
+      "mean_predicted": 0.039369069039821625,
+      "mean_observed": 0.048787528868360276,
+      "reliability_bins": [
+        {
+          "bin_low": 0.0,
+          "bin_high": 0.1,
+          "n": 12773,
+          "mean_predicted": 0.030827714130282402,
+          "observed_rate": 0.04094574493071322
+        },
+        {
+          "bin_low": 0.1,
+          "bin_high": 0.2,
+          "n": 995,
+          "mean_predicted": 0.13113173842430115,
+          "observed_rate": 0.135678391959799
+        },
+        {
+          "bin_low": 0.2,
+          "bin_high": 0.30000000000000004,
+          "n": 81,
+          "mean_predicted": 0.23349417746067047,
+          "observed_rate": 0.19753086419753085
+        },
+        {
+          "bin_low": 0.30000000000000004,
+          "bin_high": 0.4,
+          "n": 6,
+          "mean_predicted": 0.32431063055992126,
+          "observed_rate": 0.16666666666666666
+        },
+        {
+          "bin_low": 0.4,
+          "bin_high": 0.5,
+          "n": 1,
+          "mean_predicted": 0.4004582166671753,
+          "observed_rate": 1.0
+        },
+        {
+          "bin_low": 0.5,
+          "bin_high": 0.6000000000000001,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        },
+        {
+          "bin_low": 0.6000000000000001,
+          "bin_high": 0.7000000000000001,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        },
+        {
+          "bin_low": 0.7000000000000001,
+          "bin_high": 0.8,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        },
+        {
+          "bin_low": 0.8,
+          "bin_high": 0.9,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        },
+        {
+          "bin_low": 0.9,
+          "bin_high": 1.0,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        }
+      ]
+    },
+    {
+      "name": "acute_resp_failure",
+      "n": 14159,
+      "n_positive": 645,
+      "prevalence": 0.045554064552581396,
+      "brier": 0.0397476851940155,
+      "ece": 0.00925657642417609,
+      "mean_predicted": 0.03870004042983055,
+      "mean_observed": 0.045554064552581396,
+      "reliability_bins": [
+        {
+          "bin_low": 0.0,
+          "bin_high": 0.1,
+          "n": 12430,
+          "mean_predicted": 0.019557185471057892,
+          "observed_rate": 0.02687047465808528
+        },
+        {
+          "bin_low": 0.1,
+          "bin_high": 0.2,
+          "n": 1269,
+          "mean_predicted": 0.13807128369808197,
+          "observed_rate": 0.14736012608353033
+        },
+        {
+          "bin_low": 0.2,
+          "bin_high": 0.30000000000000004,
+          "n": 321,
+          "mean_predicted": 0.24067281186580658,
+          "observed_rate": 0.2523364485981308
+        },
+        {
+          "bin_low": 0.30000000000000004,
+          "bin_high": 0.4,
+          "n": 92,
+          "mean_predicted": 0.34071609377861023,
+          "observed_rate": 0.2608695652173913
+        },
+        {
+          "bin_low": 0.4,
+          "bin_high": 0.5,
+          "n": 45,
+          "mean_predicted": 0.44197383522987366,
+          "observed_rate": 0.37777777777777777
+        },
+        {
+          "bin_low": 0.5,
+          "bin_high": 0.6000000000000001,
+          "n": 2,
+          "mean_predicted": 0.577436089515686,
+          "observed_rate": 1.0
+        },
+        {
+          "bin_low": 0.6000000000000001,
+          "bin_high": 0.7000000000000001,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        },
+        {
+          "bin_low": 0.7000000000000001,
+          "bin_high": 0.8,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        },
+        {
+          "bin_low": 0.8,
+          "bin_high": 0.9,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        },
+        {
+          "bin_low": 0.9,
+          "bin_high": 1.0,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        }
+      ]
+    },
+    {
+      "name": "heart_failure",
+      "n": 12381,
+      "n_positive": 631,
+      "prevalence": 0.05096518859542848,
+      "brier": 0.045414168387651443,
+      "ece": 0.017178826700986593,
+      "mean_predicted": 0.06814401596784592,
+      "mean_observed": 0.05096518859542848,
+      "reliability_bins": [
+        {
+          "bin_low": 0.0,
+          "bin_high": 0.1,
+          "n": 9822,
+          "mean_predicted": 0.023002421483397484,
+          "observed_rate": 0.021686010995723884
+        },
+        {
+          "bin_low": 0.1,
+          "bin_high": 0.2,
+          "n": 1338,
+          "mean_predicted": 0.14138618111610413,
+          "observed_rate": 0.11285500747384156
+        },
+        {
+          "bin_low": 0.2,
+          "bin_high": 0.30000000000000004,
+          "n": 557,
+          "mean_predicted": 0.24620386958122253,
+          "observed_rate": 0.1436265709156194
+        },
+        {
+          "bin_low": 0.30000000000000004,
+          "bin_high": 0.4,
+          "n": 334,
+          "mean_predicted": 0.3433684706687927,
+          "observed_rate": 0.23952095808383234
+        },
+        {
+          "bin_low": 0.4,
+          "bin_high": 0.5,
+          "n": 146,
+          "mean_predicted": 0.4459517002105713,
+          "observed_rate": 0.2808219178082192
+        },
+        {
+          "bin_low": 0.5,
+          "bin_high": 0.6000000000000001,
+          "n": 105,
+          "mean_predicted": 0.5427167415618896,
+          "observed_rate": 0.3142857142857143
+        },
+        {
+          "bin_low": 0.6000000000000001,
+          "bin_high": 0.7000000000000001,
+          "n": 44,
+          "mean_predicted": 0.6352306604385376,
+          "observed_rate": 0.36363636363636365
+        },
+        {
+          "bin_low": 0.7000000000000001,
+          "bin_high": 0.8,
+          "n": 28,
+          "mean_predicted": 0.744193434715271,
+          "observed_rate": 0.5
+        },
+        {
+          "bin_low": 0.8,
+          "bin_high": 0.9,
+          "n": 7,
+          "mean_predicted": 0.840594470500946,
+          "observed_rate": 0.42857142857142855
+        },
+        {
+          "bin_low": 0.9,
+          "bin_high": 1.0,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        }
+      ]
+    },
+    {
+      "name": "acute_mi",
+      "n": 14049,
+      "n_positive": 305,
+      "prevalence": 0.021709730229909602,
+      "brier": 0.020807916298508644,
+      "ece": 0.004013190089373418,
+      "mean_predicted": 0.022494854405522346,
+      "mean_observed": 0.021709730229909602,
+      "reliability_bins": [
+        {
+          "bin_low": 0.0,
+          "bin_high": 0.1,
+          "n": 13485,
+          "mean_predicted": 0.017718516290187836,
+          "observed_rate": 0.01846496106785317
+        },
+        {
+          "bin_low": 0.1,
+          "bin_high": 0.2,
+          "n": 531,
+          "mean_predicted": 0.13094572722911835,
+          "observed_rate": 0.096045197740113
+        },
+        {
+          "bin_low": 0.2,
+          "bin_high": 0.30000000000000004,
+          "n": 33,
+          "mean_predicted": 0.2292078733444214,
+          "observed_rate": 0.15151515151515152
+        },
+        {
+          "bin_low": 0.30000000000000004,
+          "bin_high": 0.4,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        },
+        {
+          "bin_low": 0.4,
+          "bin_high": 0.5,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        },
+        {
+          "bin_low": 0.5,
+          "bin_high": 0.6000000000000001,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        },
+        {
+          "bin_low": 0.6000000000000001,
+          "bin_high": 0.7000000000000001,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        },
+        {
+          "bin_low": 0.7000000000000001,
+          "bin_high": 0.8,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        },
+        {
+          "bin_low": 0.8,
+          "bin_high": 0.9,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        },
+        {
+          "bin_low": 0.9,
+          "bin_high": 1.0,
+          "n": 0,
+          "mean_predicted": null,
+          "observed_rate": null
+        }
+      ]
+    }
+  ]
+}
